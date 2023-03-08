@@ -1,5 +1,4 @@
 import { legacy_createStore as createStore } from 'redux'
-// import { createStoreHook } from 'react-redux';
 
 
 import { allReducers } from '../3Reducer';
