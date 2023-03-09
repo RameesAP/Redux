@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector,useDispatch } from "react-redux";
-import { decrement, increment } from "./Redux/2Action";
+import { decrement, increment } from "./Redux/2Action/counter";
 import { login } from "./Redux/2Action/Login";
 
 
@@ -9,7 +9,7 @@ function App() {
   const isLogged = useSelector(state => state.isLogged);
   const dispatch = useDispatch();
 
-  console.log("isLogged:", isLogged);
+  console.log("isLogged and counter:", isLogged,counter);
 
 
   return (

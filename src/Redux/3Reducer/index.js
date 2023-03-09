@@ -6,4 +6,4 @@ import loggedReducer from "./isLogged";
 
 
 
-export const  allReducers= combineReducers({counterReducer,loggedReducer})
+export const  reducers= combineReducers({counterReducer,loggedReducer})
